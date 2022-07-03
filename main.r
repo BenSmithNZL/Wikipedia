@@ -7,8 +7,13 @@ base = "https://en.wikipedia.org/wiki/"
 
 results <- list()
 
-targets <- c("Rugby_union", "Rugby_League", "Cricket", "Basketball", "Netball",
-             "Baseball", "Ice_hockey", "Chess")
+targets <- c("Auckland", "Wellington", "Christchurch",
+             "Sydney", "Brisbane",
+             "London", "Manchester",
+             "Dublin", "Belfast",
+             "Cape_Town", "Durban",
+             "Munich", "Berlin",
+             "Socks", "T-shirt")
 
 names(results) <- targets
 
@@ -76,6 +81,9 @@ for (r in 1:length(targets)) {
   }
 }
 
+dist_mat <- dist(similarity, method = 'euclidean')
+hclust_avg <- hclust(dist_mat, method = 'average')
+plot(hclust_avg)
 
 View(round(similarity, 4))
 
