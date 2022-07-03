@@ -1,5 +1,5 @@
 # Wikipedia
-Script that shows the clusters Wikipedia pages based on the number of shared links.
+Script that clusters Wikipedia pages based on the number of shared links.
 
 ## Example
 
