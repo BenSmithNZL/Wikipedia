@@ -1,5 +1,9 @@
 # Wikipedia
-Script that shows the similarity between Wikipedia pages based on the number of shared links
+Script that shows the clusters Wikipedia pages based on the number of shared links.
+
+## Example
+
+![alt_text](https://github.com/BenSmithNZL/Wikipedia/blob/main/plots/example_cluster)
 
 ## Requirements 
 
