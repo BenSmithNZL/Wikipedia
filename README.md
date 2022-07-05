@@ -4,6 +4,8 @@ Script that clusters Wikipedia pages based on the number of shared links.
 ## Example
 
 ![alt_text](https://github.com/BenSmithNZL/Wikipedia/blob/main/plots/example_cluster)
+![alt_text](https://github.com/BenSmithNZL/Wikipedia/blob/main/plots/plot_zoom_png)
+
 
 ## Requirements 
 
